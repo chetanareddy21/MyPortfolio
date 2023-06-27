@@ -1,0 +1,169 @@
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 80px 80px 80px;
+     background: black;
+}
+
+.about-main-left,
+.about-main-right {
+    width: 50%;
+}
+
+.about-main-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-anime { 
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.about-head {
+   
+    font-weight: 500;
+    font-size: 5em;
+    line-height: 57px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: white;
+    margin: 0;
+    font-family: 'Tangerine', serif;
+    padding-left: 5%;
+}
+
+
+.about-para {
+    font-style: normal;
+    font-weight: 75;
+    font-size: 16px;
+    text-align: left;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: white;
+    margin: 0;
+    font-family: Poppins;
+    padding-left: 5%;
+    padding-top: 10%;
+    text-align: justify;
+}
+
+
+.head-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    flex-wrap:wrap;
+    margin: 35px 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0px 36px;
+    height: 130px;
+    width: 130px;
+    text-decoration: none;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    margin: 4px;
+    flex-wrap: wrap;
+    
+}
+
+.btn-red {
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(201, 97, 49);
+}
+
+.btn-blue {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(55, 127, 175);
+}
+.btn-yellow {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(146, 155, 26);
+}
+.btn-green {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(32, 160, 49);
+}
+
+
+.btn:hover {
+    box-shadow: 10px 10px 10px white;
+    transition: all 0.9s ease-in-out;
+}
+
+.btn-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.splash-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-anime {
+    margin-bottom: -80px;
+}
+
+/* For small height screen sizes */
+@media only screen and (max-height: 550px) {
+    .home-anime {
+        width: 400px;
+    }
+}
+
+
+.social-icons-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon{
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    margin: 5px;
+    size: 5px;
+}
+
+.social-icon:hover,
+.contact-btn:hover{
+
+    filter: drop-shadow(0px 8px 8px rgba(0,0,0,0.32));
+    cursor: pointer;
+    transition: all 0.3s;
+}
